@@ -17,7 +17,7 @@ jobs:
       - name: Run box version
         id: release
         uses: docker://ambimax/semantic-release:latest
-        with:
+        env:
           GH_TOKEN: ${{ secrets.AMBIMAX_GITHUB_RELEASE_TOKEN }}
 
       - name: Test output
