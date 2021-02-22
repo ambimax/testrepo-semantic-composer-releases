@@ -1,16 +1,16 @@
 {
-  "name": "ambimax/testrepo-semantic-composer-releases",
-  "description": "Testing releasing of composer.json projects",
-  "type": "magento2-component",
-  "version": "0.0.0",
-  "authors": [
-    {
-      "name": "Tobias Schifftner",
-      "email": "ts@ambimax.de",
-      "homepage": "https://www.twitter.com/tschifftner"
+    "name": "ambimax/testrepo-semantic-composer-releases",
+    "description": "Testing releasing of composer.json projects",
+    "type": "magento2-component",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Tobias Schifftner",
+            "email": "ts@ambimax.de",
+            "homepage": "https://www.twitter.com/tschifftner"
+        }
+    ],
+    "require": {
+        "magento/magento-composer-installer": "*"
     }
-  ],
-  "require": {
-    "magento/magento-composer-installer": "*"
-  }
 }
