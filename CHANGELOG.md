@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/ambimax/testrepo-semantic-composer-releases/compare/v1.0.0...v1.0.1) (2021-02-22)
+
+
+### Bug Fixes
+
+* gh env variables ([f772e5b](https://github.com/ambimax/testrepo-semantic-composer-releases/commit/f772e5b453b7325e1829c915865be79f051bad4c))
+
 # 1.0.0 (2021-02-22)
 
 

@@ -2,7 +2,7 @@
     "name": "ambimax/testrepo-semantic-composer-releases",
     "description": "Testing releasing of composer.json projects",
     "type": "magento2-component",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Tobias Schifftner",
