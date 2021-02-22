@@ -16,7 +16,7 @@
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "echo '::set-env name=SEMANTIC_VERSION::${nextRelease.version}' && echo '::set-env name=GIT_VERSION::v${nextRelease.version}'"
+        "prepareCmd": "echo \"SEMANTIC_VERSION=${nextRelease.version}\" >> $GITHUB_ENV && echo \"GIT_VERSION=v${nextRelease.version}\" >> $GITHUB_ENV"
       }
     ],
     [
